@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KiemTra_2374802010074</string>
+    <string name="login_title">HỆ THỐNG ĐĂNG NHẬP</string>
+    <string name="hint_email">Nhập Email</string>
+    <string name="hint_password">Nhập Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
 </resources>

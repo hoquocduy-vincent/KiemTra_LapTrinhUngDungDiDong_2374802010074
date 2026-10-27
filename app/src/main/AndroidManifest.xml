@@ -7,6 +7,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KiemTra_LapTrinhUngDungDiDong_2374802010074">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>

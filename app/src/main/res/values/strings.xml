@@ -4,4 +4,6 @@
     <string name="hint_email">Nhập Email</string>
     <string name="hint_password">Nhập Mật khẩu</string>
     <string name="btn_login">Đăng nhập</string>
+    <string name="profile_title">Thông tin tài khoản</string>
+    <string name="btn_logout">Đăng xuất</string>
 </resources>

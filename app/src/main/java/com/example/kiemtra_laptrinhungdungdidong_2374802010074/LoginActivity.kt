@@ -1,5 +1,6 @@
 package com.example.kiemtra_laptrinhungdungdidong_2374802010074
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.util.Patterns
@@ -9,6 +10,10 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class LoginActivity : AppCompatActivity() {
+
+    companion object {
+        const val EXTRA_EMAIL = "EXTRA_EMAIL"
+    }
 
     private lateinit var edtEmail: EditText
     private lateinit var edtPassword: EditText
@@ -47,6 +52,11 @@ class LoginActivity : AppCompatActivity() {
         }
 
         showStatus("Xác thực thành công!", isError = false)
+
+        // Điều hướng Explicit Intent sang ProfileActivity, đóng gói Email bằng putExtra()
+        val intent = Intent(this, ProfileActivity::class.java)
+        intent.putExtra(EXTRA_EMAIL, email)
+        startActivity(intent)
     }
 
     private fun showStatus(message: String, isError: Boolean) {

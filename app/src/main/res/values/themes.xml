@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KiemTra_LapTrinhUngDungDiDong_2374802010074" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.KiemTra_LapTrinhUngDungDiDong_2374802010074" parent="Base.Theme.KiemTra_LapTrinhUngDungDiDong_2374802010074" />
+</resources>
